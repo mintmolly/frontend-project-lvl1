@@ -1,0 +1,7 @@
+name: Code Quality Check
+on: push
+jobs:
+  lint-job:
+    runs-on: ubuntu-latest
+    steps:
+        run: make lint
